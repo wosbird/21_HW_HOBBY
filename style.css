@@ -1,0 +1,46 @@
+
+body{
+  background-color: black;
+}
+
+.jumbotron{
+  background-image: url(../21_HW_HOBBY/images/scs_leopard.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+background-color: black;
+  color: black;
+  height: 600px;
+ 
+}
+
+.jumbotron .display-2{
+ font-weight: 350;
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 200px;
+  text-align: center;
+}
+
+.navbar{
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
