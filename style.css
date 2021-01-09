@@ -6,10 +6,10 @@ body{
 .jumbotron{
   background-image: url(../21_HW_HOBBY/images/scs_leopard.jpg);
   background-position: center;
-  background-repeat: no-repeat;
 background-color: black;
   color: black;
   height: 600px;
+  background-repeat: no-repeat;
  
 }
 
@@ -23,6 +23,24 @@ background-color: black;
 
 .navbar{
   color: white;
+}
+
+
+h2{
+font-size: 66pt;
+color: white;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.card{
+  background-color: black;
+  color: white;
+}
+
+.card-title{
+  font-size: 44pt;
 }
 
 /* unvisited link */
@@ -43,4 +61,30 @@ a:hover {
 /* selected link */
 a:active {
   color: green;
+}
+
+#start{
+  background: url(../21_HW_HOBBY/images/plate_diagram.png);
+  height: 400px;
+  background-position: right;
+
+}
+
+#tips{
+  background-image: url(../21_HW_HOBBY/images/skaters.jpeg);
+height: 400px;
+
+background-position: center;
+}
+
+#more{
+  background-image: url(../21_HW_HOBBY/images/skatercollage.png);
+  height: 400px;
+ 
+  background-position: center;
+}
+
+footer{
+  padding-top: 50px;
+
 }
